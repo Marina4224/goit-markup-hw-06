@@ -20,53 +20,6 @@
 
 /* #region team */
 
-.team-lists {
-  display: flex;
-  gap: 24px;
-}
-
-.team-lists-item {
-  background-color: #ffffff;
-  width: calc((100% - 72px) / 4);
-  border-radius: 0 0 4px 4px;
-  box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
-    0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
-}
-
-.team-item-title {
-  margin-bottom: 8px;
-  font-weight: 500;
-  font-size: 20px;
-  line-height: 1.2;
-  letter-spacing: 0.02em;
-  text-align: center;
-  color: #2e2f42;
-}
-
-.team-item-container {
-  padding: 32px 0;
-}
-
-.team-item-text {
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 1.5;
-  letter-spacing: 0.02em;
-  text-align: center;
-  color: #434455;
-  margin-bottom: 8px;
-}
-.list-icon {
-  width: 40px;
-  height: 40px;
-}
-.cont {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  gap: 24px;
-}
-
 .icon-link,
 .icon-link-footer {
   width: 100%;
@@ -80,85 +33,12 @@
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
-.icon-block {
-  width: 64px;
-  height: 64px;
-}
-.icon {
-  width: 16px;
-  height: 16px;
-  fill: #f4f4fd;
-}
-.icon-link:hover,
-.icon-link:focus {
-  background-color: #404bbf;
-}
+
 /* #endregion team */
 
 /* #region portfolio */
 
-.portfolio-lists-item {
-  width: calc((100% - 48px) / 3);
-  transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
-
-.team-item-title-two {
-  margin-bottom: 8px;
-}
-
-.portfolio-lists {
-  display: flex;
-  flex-wrap: wrap;
-  row-gap: 48px;
-  column-gap: 24px;
-}
-.box {
-  position: relative;
-  overflow: hidden;
-}
-.overlay {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  background-color: #4d5ae5;
-  color: #f4f4fd;
-  padding: 40px 32px 164px 32px;
-  overflow: hidden;
-  line-height: 1.5;
-  letter-spacing: 0.02em;
-  transform: translateY(100%);
-  padding: 40px 32px;
-  opacity: 0;
-  transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
-.portfolio-lists-item:hover {
-  box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
-    0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
-}
-.portfolio-lists-item:hover .overlay {
-  opacity: 1;
-  transform: translateY(0);
-  box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
-    0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
-}
-
-.portfolio-container {
-  padding: 32px 16px;
-  border: 1px solid #e7e9fc;
-  border-top: none;
-}
-
-.portfolio-item-text {
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 1.5;
-  letter-spacing: 0.02em;
-  color: #434455;
-}
-
-* #endregion portfolio */
+/* #endregion portfolio */
 
 /* #endregion footer */
 .footer {
