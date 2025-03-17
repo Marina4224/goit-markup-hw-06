@@ -380,7 +380,6 @@ button {
   .hero-section {
     padding: 112px 0;
     max-width: 768px;
-    min-height: 436px;
     background-image: linear-gradient(
         rgba(46, 47, 66, 0.7),
         rgba(46, 47, 66, 0.7)
@@ -943,7 +942,10 @@ button {
   pointer-events: auto;
 }
 .modal {
-  padding: 24px 16px;
+  padding-top: 72px;
+  padding-bottom: 24px;
+  padding-left: 16px;
+  padding-right: 16px;
   position: absolute;
   top: 50%;
   left: 50%;
